@@ -1,0 +1,118 @@
+html,
+body {
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding-top: 0;
+    background-color: #e6b34400;
+    /*font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;*/
+}
+
+
+/*NAV BAR*/
+
+/*END OF NAV BAR*/
+
+
+/*BANNER*/
+/*END OF BANNER*/
+
+/*INFOS*/
+/*END OF INFOS*/
+
+/*FOOTER*/
+.footer {
+    height: 3.75rem;
+    padding-top: 1rem;
+    background-color: #292929;
+}
+.fleche5 {
+    margin-top: 1.8rem;
+    color: #e6b244;
+    transition: margin-top .1s ease-out;
+}
+.fleche5:hover {
+    margin-top: 1.3rem;
+    color: #2db6af;
+}
+.footer span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    color: rgba(243, 229, 103, 0.568);
+}
+.contactFooter {
+    color: rgba(255, 202, 87, 0.466);
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.contactFooter:hover {
+    color: rgb(255, 202, 87);
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+/*END OF FOOTER*/
+
+
+/*PADDING UNDER NAVBAR AND TYPO RESPONSIVE*/
+/*XXXL*/
+
+@media (min-width: 2560px) {
+}
+
+@media (max-width: 1440px) {
+}
+
+
+/*XL*/
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+
+/*LG*/
+@media (max-width: 992px) {
+}
+
+
+/*MD*/
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 576px) {
+}
+
+
+/*SM*/
+@media (max-width: 425px) {
+}
+
+
+/*XS*/
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
+
+
+/*ANIMATION KEYFRAMES*/
