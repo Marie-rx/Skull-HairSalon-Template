@@ -5,15 +5,14 @@ var minWidth640px = window.matchMedia("(min-width:640px)");
 var minWidth1024px = window.matchMedia("(min-width:1024px)");
 
 $(document).ready(() => {
-
+ 
     //Years of expertise
-    var myAge = document.getElementById("age");
+    /*var myAge = $('#age');
     const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e+10);
-    myAge.innerHTML = getAge('1991-04-20');
+    myAge.html(getAge('1991-04-20'));*/
 
     //change copyrights date to current
-    var copyrightYear = document.getElementById("copyrights");
-    copyrightYear.innerHTML = new Date().getFullYear();
+    $('#copyrights').html(new Date().getFullYear());
 
     //smooth scroll to hash
     $('a[href^="#"]').on('click', function(e) {
