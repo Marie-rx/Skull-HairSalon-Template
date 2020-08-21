@@ -8,15 +8,10 @@ body {
 body {
     padding-top: 0;
     background-color: rgb(22, 22, 22);
-    /*font-family: 'Anton', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Lobster Two', cursive;
-    font-family: 'Manrope', sans-serif;
+    /*
+    font-family: 'MuseoModerno', cursive;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Gravitas One', cursive;*/
+    */
 }
 
 
@@ -76,9 +71,10 @@ button.navbar-toggler:focus {
     background-image: linear-gradient(-120deg, rgba(0, 0, 0, 0.315)0%, rgba(0, 0, 0, 0.884)90%), url("images/famuslocaux.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .jumbotron {
-    height: 40rem;
+    height: 55rem;
     margin: 0rem;
 }
 .container {
@@ -87,7 +83,8 @@ button.navbar-toggler:focus {
 h1.banner {
     color: rgb(255, 255, 255);
     font-size: 5rem;
-    font-family: 'Gravitas One', cursive;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
     text-align: center;
     line-height: 4rem;
 }
@@ -95,7 +92,7 @@ p.lead {
     font-family: 'Manrope', sans-serif;
     font-weight: 560;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(236, 236, 236);
     text-align: center;
     line-height: 2rem;
     margin-bottom: 0.1rem;
@@ -112,50 +109,225 @@ p.lead {
 blockquote p {
     font-size: 1rem;
     font-family: 'Manrope', sans-serif;
+    line-height: 1.5rem;
+}
+.blockquote-footer {
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(143, 143, 143);
+    text-align: center;
 }
 .fa-facebook {
     font-size: 1.5rem;
-    color: white;
+    color: rgb(236, 236, 236);
 }
 .fa-facebook:hover {
     color: rgb(248, 181, 80);
 }
-  
+.fa-star-half-alt span{
+    font-family: 'Manrope', sans-serif;
+    color: rgb(158, 158, 158);
+}
+.fa-star, .fa-star-half-alt {
+    color: rgb(248, 181, 80);
+} 
+.certif {
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(248, 181, 80);
+}
+.certifSpace {
+    margin: 3rem 0.5rem;
+}
 /*END OF BANNER*/
 
 /*INFOS*/
-
+.infos {
+    margin: 7rem 0rem;
+}
+.adresse {
+    width: 400px;
+    padding: 0rem 2rem;
+}
+div.adresse h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    line-height: 4rem;
+    padding-top: 0.2rem;
+    margin: 0rem;
+}
+div.adresse p {
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(236, 236, 236);
+}
+.bold {
+    border-left: 1px solid rgb(248, 181, 80);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: rgb(248, 181, 80);
+    padding-left: 1rem;
+}
+.photoInfos {
+    width: 400px;
+    height: 400px;
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+li {
+    color: rgb(224, 223, 223);
+}
 /*END OF INFOS*/
+
+
+/*GALERIE*/
+.anchor {
+    background-color: rgb(22, 22, 22);
+    width: 0rem;
+}
+.fb-page {
+    width: 400px;
+}
+.skullColor {   
+    background-image: url("images/skullColor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    padding: 0rem !important;
+}
+div.skullColor h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+/*END OF GALERIE*/
+
+
+/*PRICES*/
+.priceTitle {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'MuseoModerno', cursive; 
+    text-align: center;
+    margin: 1rem;
+}
+.priceCard {
+    width: 20rem;
+    height: fit-content;
+    border: 1px solid rgb(71, 71, 71);
+    margin: 2rem;
+}
+.pricePhoto {
+    border-bottom: 1px solid rgb(71, 71, 71);
+    display: flex;
+    margin: 0 auto;
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/skullColor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.priceCoupe {
+    border-bottom: 1px solid rgb(71, 71, 71);
+    display: flex;
+    margin: 0 auto;
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/skullCut.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.priceSoin {
+    border-bottom: 1px solid rgb(71, 71, 71);
+    display: flex;
+    margin: 0 auto;
+    width: 20rem;
+    height: 10rem;
+    background-image: url("images/skullSoin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+h3.price {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: 'MuseoModerno', cursive; 
+    text-align: center;
+    margin: 1rem;
+}
+.pPrice {
+    border-left: 1px solid rgb(248, 181, 80);
+    letter-spacing: 0.1rem;
+    color: rgb(248, 181, 80);
+    padding-left: 1rem;
+}
+.Price€ {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: rgb(212, 212, 212);
+    margin: 0 auto;
+}
+.dots {
+    font-size: 0.2rem;
+    font-family: 'Manrope', sans-serif;
+    color: rgba(236, 236, 236, 0.329);
+}
+/*END OF PRICES*/
+
+
+
+/*REVIEWS*/
+.carousel {
+    width: 900px;
+    margin: auto auto;
+}
+.carousel-inner {
+    width: 750px;
+    height: 240px;
+    margin: auto auto;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5rem;
+}
+.reviews {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+section.reviews h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+    margin: 0rem;
+    width: 100%;
+}
+section.reviews{
+    background-color: rgb(8, 8, 8);
+}
+/*END OF REVIEWS*/
 
 /*FOOTER*/
 .footer {
     height: 3.75rem;
     padding-top: 1rem;
-    background-color: #292929;
-}
-.fleche5 {
-    margin-top: 1.8rem;
-    color: #e6b244;
-    transition: margin-top .1s ease-out;
-}
-.fleche5:hover {
-    margin-top: 1.3rem;
-    color: #2db6af;
+    background-color: rgb(8, 8, 8);
 }
 .footer span {
     font-family: 'Manrope', sans-serif;
     font-weight: lighter;
-    color: rgba(243, 229, 103, 0.568);
-}
-.contactFooter {
-    color: rgba(255, 202, 87, 0.466);
-    font-size: 1.5rem;
-    padding-left: 1rem;
-}
-.contactFooter:hover {
-    color: rgb(255, 202, 87);
-    font-size: 1.5rem;
-    padding-left: 1rem;
+    color: rgba(99, 99, 99, 0.568);
 }
 .container {
     width: auto;

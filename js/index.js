@@ -7,10 +7,10 @@ var minWidth1024px = window.matchMedia("(min-width:1024px)");
 $(document).ready(() => {
  
         $(window).scroll(function () {
-           if ($(this).scrollTop() > 30) {
+           if ($(this).scrollTop() > 60) {
               $('.navbar').css('background-color', 'rgba(0, 0, 0, 0.950)');
            } 
-           if ($(this).scrollTop() < 30) {
+           if ($(this).scrollTop() < 60) {
             $('.navbar').css('background-color', 'rgba(0, 0, 0, 0)');
            }
         });

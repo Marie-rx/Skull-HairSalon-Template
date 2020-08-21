@@ -36,7 +36,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--GOOGLE FONTS-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@400;500;515;600;700&family=Lexend+Deca&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Manrope:wght@300;400&family=Roboto:wght@300;400&display=swap&family=Quicksand:wght@300;400&display=swap&family=Gravitas+One&display=swap&family=Gravitas+One&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=MuseoModerno:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!--GOOGLE VERIF-->
     <meta name="google-site-verification" content="p4Jjtyf29iORktOp9qcUIYrnr89CQ_mBvsdUvsloozY" />
@@ -88,12 +88,11 @@
 
     <!--MY JS-->
     <script src="js/index.js"></script>
-
-
-
 </head>
 
-<body>
+<body>   
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v8.0" nonce="F7Gb3Plt"></script>
     <!--NAVIGATION-->
     <header>
         <nav class="navbar navbar-colorChange navbar-originalColor fixed-top navbar-expand-lg navbar-dark">
@@ -108,13 +107,13 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <span class="spacerNavItem"></span>
                 <li class="nav-item d-inline-block">
-                    <a class="nav-link align-middle" href="#">Contact</a>
+                    <a class="nav-link align-middle" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item d-inline-block">
-                    <a class="nav-link align-middle" href="#">Galerie</a>
+                    <a class="nav-link align-middle" href="#galerie">Galerie</a>
                 </li>
                 <li class="nav-item d-inline-block ">
-                    <a class="nav-link align-middle" href="#">Infos</a>
+                    <a class="nav-link align-middle" href="#prices">Tarifs</a>
                 </li>
             </div>
         </nav>
@@ -125,70 +124,385 @@
     <section class="jumbotron jumbotron-fluid bannerIMG">
         <div class="container">
             <img class="bannerIcon" src="css/images/cut-solid.svg" alt="scissors">
-            <h1 class="banner">Fam'<span class="us">Us</span></h1>
+            <h1 class="banner">FAM'<span class="us">US</span></h1>
             <p class="lead">Artistes du cheveu, génies coloristes.</p>
-
-            <blockquote class="blockquote mt-5">
-                <p class="mb-0">"Tu es fun ? Sans prise de tête ? Tu veux faire comme à la case ? <br> C’est par ici que
-                    ça se passe !"</p>
-                <footer class="blockquote-footer mt-2">Jeff & Titi <a
-                        href="https://fr-fr.facebook.com/famus.coiffeursdesigners/"><i class="fab fa-facebook pl-2"></i></a>
-                </footer>
+            <hr>
+            <blockquote class="blockquote mt-4 d-flex justify-content-center">
+                <p class="mb-0 ml-3 mr-1">“ Tu es fun ? Sans prise de tête ? Tu veux faire comme à la case ? <br> C’est par ici que
+                    ça se passe ! ”</p>
             </blockquote>
-
+            <div class="d-flex justify-content-center">
+                <footer class="blockquote-footer mt-1">Jeff & Titi 
+                        <div class="certifSpace">
+                            <a href="https://fr-fr.facebook.com/famus.coiffeursdesigners/">
+                                <i class="fab fa-facebook p-2"></i>
+                            </a>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"> <span>4.6 / 5</span></i>
+                            <p class="certif"><i class="fas fa-medal"></i> [N/A] années d'expertise !</p>
+                        </div>
+                </footer>
+            </div>
         </div>
     </section>
     <!--END OF BANNER-->
 
+    <hr id="contact" class="anchor">
+
     <!--INFOS SECTION-->
-    <section>
-        <iframe class="googleMaps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.7906071281543!2d3.0610230609634366!3d50.6299028274859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5855c918663%3A0x6429dcde7c7c3e61!2s11%20Rue%20Nicolas%20Leblanc%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597843210115!5m2!1sfr!2sfr"
-            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0">
-        </iframe>
-        <h2>Contact</h2>
-        <p><span class="bold">Adresse:</span> 11 Rue Nicolas Leblanc 59000 Lille</p>
-        <p><span class="bold">Horaires:</span> 10:00h - 19:00h du Mardi au Samedi.</p>
-    </section>
-    <section>
-        <iframe class="googleMaps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.7906071281543!2d3.0610230609634366!3d50.6299028274859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5855c918663%3A0x6429dcde7c7c3e61!2s11%20Rue%20Nicolas%20Leblanc%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597843210115!5m2!1sfr!2sfr"
-            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0">
-        </iframe>
-        <h2>Contact</h2>
-        <p><span class="bold">Adresse:</span> 11 Rue Nicolas Leblanc 59000 Lille</p>
-        <p><span class="bold">Horaires:</span> 10:00h - 19:00h du Mardi au Samedi.</p>
-    </section>
-    <section>
-        <iframe class="googleMaps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.7906071281543!2d3.0610230609634366!3d50.6299028274859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5855c918663%3A0x6429dcde7c7c3e61!2s11%20Rue%20Nicolas%20Leblanc%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597843210115!5m2!1sfr!2sfr"
-            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0">
-        </iframe>
-        <h2>Contact</h2>
-        <p><span class="bold">Adresse:</span> 11 Rue Nicolas Leblanc 59000 Lille</p>
-        <p><span class="bold">Horaires:</span> 10:00h - 19:00h du Mardi au Samedi.</p>
+    <section  class="infos">
+        <div class="col-12">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center mx-auto flex-wrap">
+                <iframe class="googleMaps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.7906071281543!2d3.0610230609634366!3d50.6299028274859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5855c918663%3A0x6429dcde7c7c3e61!2s11%20Rue%20Nicolas%20Leblanc%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1597843210115!5m2!1sfr!2sfr"
+                    width="400px" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+                <div class="adresse">
+                    <h2>Contact:</h2>
+                    <p><span class="bold"><i class="fas fa-map-marker-alt"></i>  Adresse :</span><br> 11 Rue Nicolas Leblanc 59000 Lille</p>
+                    <p><span class="bold"><i class="far fa-clock"></i>  Horaires :</span><br> 
+                        <ul>
+                            <li>Lundi : Fermé</li>
+                            <li>Mardi : 10:00h - 19:00h</li>
+                            <li>Mercredi : 10:00h - 19:00h</li>
+                            <li>Jeudi : 12:00h - 19:00h</li>
+                            <li>Vendredi : 10:00h - 19:00h</li>
+                            <li>Samedi : 10:00h - 18:00h</li>
+                        </ul></p>
+                    <p><span class="bold"><i class="fas fa-phone-alt"></i>  Téléphone :</span><br> 03 62 10 33 32</p>
+                </div>
+                    <img class="photoInfos" src="css/images/1.png">
+                    <img class="photoInfos" src="css/images/2.png">
+                    <img class="photoInfos" src="css/images/3.png">
+                    <img class="photoInfos" src="css/images/4.png">
+            </div>
+            <hr id="galerie" class="anchor">
+        </div>
     </section>
     <!--END OF INFOS SECTION-->
 
+    <!--GALERIE SECTION-->
+    <section class="infos">
+        <div class="col-12">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center mx-auto flex-wrap">
+                <div class="fb-page" data-href="https://www.facebook.com/famus.coiffeursdesigners/" data-tabs="timeline" data-width="400" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/famus.coiffeursdesigners/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/famus.coiffeursdesigners/">Fam&#039;us Coiffeurs Designers</a></blockquote></div>
+                <div class="skullColor">
+                    <h2>Galerie</h2>
+                </div>
+                <img class="photoInfos" src="css/images/20.png">
+                <img class="photoInfos" src="css/images/23.png">
+                <img class="photoInfos" src="css/images/18.png">
+                <img class="photoInfos" src="css/images/17.png">
+
+                <img class="photoInfos" src="css/images/19.png">
+                <img class="photoInfos" src="css/images/skullColor3.png">
+                <img class="photoInfos" src="css/images/21.png">
+                <img class="photoInfos" src="css/images/22.png">
+                <img class="photoInfos" src="css/images/24.png">
+                <img class="photoInfos" src="css/images/25.png">
+                
+                <img class="photoInfos" src="css/images/5.png">
+                <img class="photoInfos" src="css/images/skullColor3.png">
+                <img class="photoInfos" src="css/images/7.png">
+                <img class="photoInfos" src="css/images/15.png">
+                <img class="photoInfos" src="css/images/11.png">
+                <img class="photoInfos" src="css/images/16.png">
+
+                <img class="photoInfos" src="css/images/8.png">
+                <img class="photoInfos" src="css/images/skullColor3.png">
+                <img class="photoInfos" src="css/images/6.png">
+                <img class="photoInfos" src="css/images/9.png">
+                <img class="photoInfos" src="css/images/12.png">
+                <img class="photoInfos" src="css/images/14.png">
+            </div>
+        </div>
+    </section>
+    <!--END OF GALERIE SECTION-->
+
+    <hr id="prices" class="anchor">
+
+    <!--PRICING SECTION-->
+    <section class="infos">
+        <div class="col-12">
+            <h2 class="priceTitle">Tarifs</h2>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center mx-auto flex-wrap">
+                <!--COUPE BRUSHING-->
+                <div class="priceCard">
+                    <div class="priceCoupe">
+                    </div>
+                    <h3 class="price">Coupe / brushing</h3>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux longs</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux courts</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Rasage</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--COLORATION-->
+                <div class="priceCard">
+                    <div class="pricePhoto">
+                    </div>
+                    <h3 class="price">Coloration</h3>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux longs</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux courts</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Méches</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Décoloration</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SOIN-->
+                <div class="priceCard">
+                    <div class="priceSoin">
+                    </div>
+                    <h3 class="price">Soin</h3>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux longs</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">                   
+                        <div class="d-inline-flex col-8">
+                            <p class="pPrice">Cheveux courts</p>
+                        </div>
+                        <div class="d-inline-flex col-4">
+                            <p class="Price€">N/A€</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+        </div>
+    </section>
+    <!--END OF PRICING SECTION-->
+
+    <hr id="reviews" class="anchor">
+
+    <!--REVIEWS SECTION-->
+    <section class="reviews">
+        <div class="col-12">
+            <div class="col-12 d-flex justify-content-center mx-auto flex-wrap">
+                <h2>Avis</h2>
+                <div class="w-100 d-flex justify-content-center pb-4">
+                    <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"> <span>4.6 / 5</span></i>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="fb-post" data-href="https://www.facebook.com/josephine.vasseurzimm/posts/10158379676784210"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/josephine.vasseurzimm/posts/10158379676784210"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Deux personnes tout à fait géniales, généreuses, entières, fiables, honnêtes, drôles, respectueuses
+                                        et très...</p>Publiée par <a href="#" role="button">Joséphine Vazim</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/josephine.vasseurzimm/posts/10158379676784210">Mercredi 22 juillet
+                                        2020</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/lola.ai.7127/posts/777266156353724"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/lola.ai.7127/posts/777266156353724"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Titi est un superbe coloriste ; passer de brune à un blond froid en deux rendez-vous ! En plus
+                                        d&#039;avoir fait très...</p>Publiée par <a href="#" role="button">Lola Aï</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/lola.ai.7127/posts/777266156353724">Dimanche 16 août 2020</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/camillecerise.beatrix/posts/1404525359715434"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/camillecerise.beatrix/posts/1404525359715434"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Je viens depuis presque 6 ans et je n&#039;irai plus ailleurs! Prête à faire 45 minutes de route pour
+                                        un travail hyper...</p>Publiée par <a href="#" role="button">Camille Bé</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/camillecerise.beatrix/posts/1404525359715434">Mercredi 15 janvier
+                                        2020</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/axelle.tournan.7/posts/812938952245491" data-show-text="true"
+                                data-width="1000">
+                                <blockquote cite="https://www.facebook.com/axelle.tournan.7/posts/812938952245491" class="fb-xfbml-parse-ignore">
+                                    <p>Sur conseil d’une amie, car je cherchais en urgence à faire mes mèches. La réactivité imbattable, à l’écoute
+                                        &amp; attentif...</p>Publiée par <a href="https://www.facebook.com/axelle.tournan.7">Axelle Tournan</a>
+                                    sur&nbsp;<a href="https://www.facebook.com/axelle.tournan.7/posts/812938952245491">Mercredi 24 janvier 2018</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/theresemarie.cardon/posts/2555821704485653"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/theresemarie.cardon/posts/2555821704485653"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>J&#039;y vais depuis plusieurs années,j&#039;ai toujours été satisfaite de leur coupe!Ils nous
+                                        mettent en confiance et ils ont beaucoup d&#039;humour!</p>Publiée par <a href="#"
+                                        role="button">Thérèse-Marie Cardon</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/theresemarie.cardon/posts/2555821704485653">Dimanche 1 décembre
+                                        2019</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/nicolasblandine.hoogstoelvlamynck/posts/1866180606858325"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/nicolasblandine.hoogstoelvlamynck/posts/1866180606858325"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Ambiance au top, rire assuré, coiffeur très accueillant, conviviale, serviable, drôle et surtout excellent,
+                                        de qualité,...</p>Publiée par <a
+                                        href="https://www.facebook.com/nicolasblandine.hoogstoelvlamynck">Niko-Blandine Hgstl-Vlck</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/nicolasblandine.hoogstoelvlamynck/posts/1866180606858325">Vendredi 9 décembre
+                                        2016</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/lulu.kinche/posts/1771357456306752" data-show-text="true"
+                                data-width="1000">
+                                <blockquote cite="https://www.facebook.com/lulu.kinche/posts/1771357456306752" class="fb-xfbml-parse-ignore">
+                                    <p>Au top, génial, le kiff ! Des coiffeurs de dingues !</p>Publiée par <a href="#" role="button">Ludivine
+                                        Kinche</a> sur&nbsp;<a href="https://www.facebook.com/lulu.kinche/posts/1771357456306752">Dimanche 5 février
+                                        2017</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/emeline.germain.1/posts/10222101569227906"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/emeline.germain.1/posts/10222101569227906" class="fb-xfbml-parse-ignore">
+                                    <p>Des faiseurs de miracles ! 😉</p>Publiée par <a href="#" role="button">Emeline Germain</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/emeline.germain.1/posts/10222101569227906">Samedi 15 février 2020</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/mathilde.gui.1/posts/1222233887948745"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/mathilde.gui.1/posts/1222233887948745"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Titi, Jeff et Lou sont de supers professionnels ! je suis toujours très satisfaite du résultat et
+                                        l&#039;ambiance au salon est vraiment géniale !!!! . je recommande vivement</p>Publiée par <a
+                                        href="#" role="button">Mathilde Gui</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/mathilde.gui.1/posts/1222233887948745">Samedi 10 août 2019</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post" data-href="https://www.facebook.com/justine.vrn.7/posts/542815196159456" data-show-text="true"
+                                data-width="1000">
+                                <blockquote cite="https://www.facebook.com/justine.vrn.7/posts/542815196159456" class="fb-xfbml-parse-ignore">
+                                    <p>Je n&#039;avais jamais été fidèle à un coiffeur auparavant mais eux c&#039;est des pointures !!! Les
+                                        meilleurs coiffeurs de Lille, une super ambiance, ils sont au top !</p>Publiée par <a href="#"
+                                        role="button">Justine Vrn</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/justine.vrn.7/posts/542815196159456">Mercredi 7 septembre 2016</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fb-post"
+                                data-href="https://www.facebook.com/permalink.php?story_fbid=209334079742314&amp;id=100019971708253"
+                                data-show-text="true" data-width="1000">
+                                <blockquote cite="https://www.facebook.com/permalink.php?story_fbid=209334079742314&amp;id=100019971708253"
+                                    class="fb-xfbml-parse-ignore">
+                                    <p>Je ne veux plus aller ailleurs !!!
+                                        Très à l&#039;écoute et de bons conseils !!!!
+                                        J&#039;adore �</p>Publiée par <a href="#" role="button">Mélanie Alais</a> sur&nbsp;<a
+                                        href="https://www.facebook.com/permalink.php?story_fbid=209334079742314&amp;id=100019971708253">Vendredi
+                                        18 août 2017</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        </div>
+    </section>
+    <!--END OF REVIEWS SECTION-->
+
     <!--FOOTER SECTION-->
-    <div class="color-change-5x"></div>
     <footer id="footer" class="d-flex footer m-0 justify-content-center">
         <div class="container m-0 text-center">
             <span class="m-0 align-middle">
                 &copy; <span id="copyrights"></span> Fam'Us - Coiffeurs designers. All Rights Reserved.
-                <a class="text-decoration-none" target="_blank" href="mailto:ronnaux.marie@gmail.com?">
-                    <i class="fas fa-paper-plane contactFooter"> </i>
-                </a>
-                <a class="text-decoration-none" target="_blank"
-                    href="https://fr.linkedin.com/in/marie-ronnaux-53a86864?challengeId=AQGA2UvhuRL58AAAAXMlBrEqH6IY0zVEyvoozZfMMVcz7II-Que42I1Da2spvwQ69okHgrxVPgHZcH9G9ZFc5TeixgV6ITI9jQ&submissionId=d64ce048-b937-1f16-c595-0d99aaac2331"><i
-                        class="fab fa-linkedin contactFooter"> </i></a>
-                <a class="text-decoration-none" target="_blank" href="https://twitter.com/marie_rx?lang=fr"><i
-                        class="fab fa-twitter contactFooter"> </i></a>
-                <a class="text-decoration-none" target="_blank" href="https://github.com/Marie-rx"><i
-                        class="fab fa-github contactFooter"></i></a>
+                
             </span>
         </div>
     </footer>
