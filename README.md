@@ -9,13 +9,13 @@
 <br />
 ☎️ 03 62 10 33 32
 <br />
-⏰    
-- Lundi : Fermé
-- Mardi : 10:00h - 19:00h
-- Mercredi : 10:00h - 19:00h
-- Jeudi : 12:00h - 19:00h
-- Vendredi : 10:00h - 19:00h
-- Samedi : 10:00h - 18:00h
+## ⏰    
+- Lundi : <b>Fermé</b>
+- Mardi : <b>10:00h - 19:00h</b>
+- Mercredi : <b>10:00h - 19:00h</b>
+- Jeudi : <b>12:00h - 19:00h</b>
+- Vendredi : <b>10:00h - 19:00h</b>
+- Samedi : <b>10:00h - 18:00h</b>
 
 
 🔗 [Facebook]
