@@ -32,25 +32,27 @@
     <link rel="canonical" href="https://marie-rx.github.io/" />
 
     <title>Fam'Us Coiffeurs Designers</title>
-    <!-- Required meta tags for bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--GOOGLE FONTS-->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=MuseoModerno:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!--GOOGLE VERIF-->
-    <meta name="google-site-verification" content="p4Jjtyf29iORktOp9qcUIYrnr89CQ_mBvsdUvsloozY" />
-    <!-- Bootstrap CSS for styling and layout-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--Font awesome link-->
-    <script src="https://kit.fontawesome.com/10a50b8ca4.js" crossorigin="anonymous"></script>
-
     <!--Scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <!--GOOGLE FONTS-->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=MuseoModerno:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <!-- Required meta tags for bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS for styling and layout-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Mon CSS files-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+     <!--Font awesome link-->
+    <script src="https://kit.fontawesome.com/10a50b8ca4.js" crossorigin="anonymous"></script>
+    
+    <!--GOOGLE VERIF-->
+    <meta name="google-site-verification" content="p4Jjtyf29iORktOp9qcUIYrnr89CQ_mBvsdUvsloozY" />
+   
+    
 
     <!--FAVICON-->
     <link rel="shortcut icon" href="favicon/apple-icon-57x57.png" type="image/x-icon">
@@ -91,6 +93,7 @@
 </head>
 
 <body>   
+    <section id="wrapper">
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v8.0" nonce="F7Gb3Plt"></script>
     <!--NAVIGATION-->
@@ -126,7 +129,7 @@
             <img class="bannerIcon" src="css/images/cut-solid.svg" alt="scissors">
             <h1 class="banner">FAM'<span class="us">US</span></h1>
             <p class="lead">Artistes du cheveu, génies coloristes.</p>
-            <hr>
+            <hr id="hrBanner">
             <blockquote class="blockquote mt-4 d-flex justify-content-center">
                 <p class="mb-0 ml-3 mr-1">“ Tu es fun ? Sans prise de tête ? Tu veux faire comme à la case ? <br> C’est par ici que
                     ça se passe ! ”</p>
@@ -137,12 +140,15 @@
                             <a href="https://fr-fr.facebook.com/famus.coiffeursdesigners/">
                                 <i class="fab fa-facebook p-2"></i>
                             </a>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"> <span>4.6 / 5</span></i>
-                            <p class="certif"><i class="fas fa-medal"></i> [N/A] années d'expertise !</p>
+                            <i class="fas fa-star fastar"></i>
+                            <i class="fas fa-star fastar"></i>
+                            <i class="fas fa-star fastar"></i>
+                            <i class="fas fa-star fastar"></i>
+                            <i class="fas fastar fa-star-half-alt"> <span>4.6 / 5</span></i>
+                            <p class="certif"><i class="fas fa-medal"></i> <span id="certif">[N/A]</span> années d'expertise !</p>
+                        </div>
+                        <div class="likeBtnF">
+                            <a href="https://fr-fr.facebook.com/famus.coiffeursdesigners/"><i class="far fa-thumbs-up fa-2x"></i></a>
                         </div>
                 </footer>
             </div>
@@ -166,12 +172,12 @@
                     <p><span class="bold"><i class="fas fa-map-marker-alt"></i>  Adresse :</span><br> 11 Rue Nicolas Leblanc 59000 Lille</p>
                     <p><span class="bold"><i class="far fa-clock"></i>  Horaires :</span><br> 
                         <ul>
-                            <li>Lundi : Fermé</li>
-                            <li>Mardi : 10:00h - 19:00h</li>
-                            <li>Mercredi : 10:00h - 19:00h</li>
-                            <li>Jeudi : 12:00h - 19:00h</li>
-                            <li>Vendredi : 10:00h - 19:00h</li>
-                            <li>Samedi : 10:00h - 18:00h</li>
+                            <li class="days">Lundi : Fermé</li>
+                            <li class="days">Mardi : 10:00h - 19:00h</li>
+                            <li class="days">Mercredi : 10:00h - 19:00h</li>
+                            <li class="days">Jeudi : 12:00h - 19:00h</li>
+                            <li class="days">Vendredi : 10:00h - 19:00h</li>
+                            <li class="days">Samedi : 10:00h - 18:00h</li>
                         </ul></p>
                     <p><span class="bold"><i class="fas fa-phone-alt"></i>  Téléphone :</span><br> 03 62 10 33 32</p>
                 </div>
@@ -333,10 +339,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-                
             </div>
         </div>
     </section>
@@ -350,11 +352,11 @@
             <div class="colSmall col-12 d-flex justify-content-center mx-auto flex-wrap">
                 <h2>Avis</h2>
                 <div class="w-100 d-flex justify-content-center pb-4">
-                    <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"> <span>4.6 / 5</span></i>
+                    <i class="fas fa-star fastar"></i>
+                    <i class="fas fa-star fastar"></i>
+                    <i class="fas fa-star fastar"></i>
+                    <i class="fas fa-star fastar"></i>
+                    <i class="fas fa-star-half-alt fastar"> <span>4.6 / 5</span></i>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -509,9 +511,7 @@
         </div>
     </footer>
     <!--END OF FOOTER SECTION-->
-
-    <!-- Required meta tags for bootstrap JS-->
-
+</section>
 </body>
 
 </html>

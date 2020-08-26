@@ -12,7 +12,9 @@ body {
     font-family: 'Roboto', sans-serif;
     */
 }
-
+#wrapper { 
+    visibility: hidden;
+}
 /*NAV BAR*/
 
 .navbar {
@@ -84,6 +86,7 @@ button.navbar-toggler:focus {
 .jumbotron {
     height: 55rem;
     margin: 0rem;
+    background-color: rgb(22, 22, 22);
 }
 
 .container {
@@ -159,6 +162,23 @@ blockquote p {
 
 .certifSpace {
     margin: 3rem 0.5rem;
+}
+.likeBtnF {
+    margin: auto auto;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10rem;
+}
+.fa-thumbs-up {
+    color: rgb(32, 34, 175);
+    margin-top: 1rem;
+}
+.fa-thumbs-up:hover {
+    color: rgb(235, 160, 47);
+}
+#hrBanner {
+    background-color: rgba(255, 255, 240, 0.356);
 }
 
 /*END OF BANNER*/
