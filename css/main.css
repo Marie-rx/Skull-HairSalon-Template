@@ -266,6 +266,15 @@ div.skullColor h2 {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+#addblock {
+    position: absolute;
+    color: ivory;
+    font-size: 1rem;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    padding: auto auto;
+}
 
 /*END OF GALERIE*/
 
