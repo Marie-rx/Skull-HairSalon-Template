@@ -1,12 +1,10 @@
-### Fam-us
+# Fam-us
 ## Artistes du cheveu, génies coloristes. 
-FAM’US COIFFEURS DESIGNERS - Lille
-
-**** 13 années d'expertise !
+### FAM’US COIFFEURS DESIGNERS - Lille
 
     📣 “ Tu es fun ? Sans prise de tête ? Tu veux faire comme à la case ?
-C’est par ici que ça se passe ! ” --- Jeff & Titi
+    C’est par ici que ça se passe ! ” --- Jeff & Titi
 
-### Facebook [website]
+### [Facebook]
 
-[website]: https://fr-fr.facebook.com/famus.coiffeursdesigners/
+[Facebook]: https://fr-fr.facebook.com/famus.coiffeursdesigners/
