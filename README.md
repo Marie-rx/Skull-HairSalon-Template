@@ -14,11 +14,7 @@
 
 ☎️ 03 62 10 33 32
 
-<br />
-
-## ⏰ <b>Horaires:</b>
-
-<br />    
+## ⏰ <b>Horaires:</b>  
 
 * Lundi : <b>Fermé</b>
 * Mardi : <b>10:00h - 19:00h</b>
