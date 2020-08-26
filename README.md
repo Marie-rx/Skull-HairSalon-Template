@@ -9,18 +9,18 @@
 <br />
 ☎️ 03 62 10 33 32
 <br />
-⏰ Lundi : Fermé
+⏰    Lundi : Fermé
 <br />
-Mardi : 10:00h - 19:00h
+      Mardi : 10:00h - 19:00h
 <br />
-Mercredi : 10:00h - 19:00h
+      Mercredi : 10:00h - 19:00h
 <br />
-Jeudi : 12:00h - 19:00h
+      Jeudi : 12:00h - 19:00h
 <br />
-Vendredi : 10:00h - 19:00h
+      Vendredi : 10:00h - 19:00h
 <br />
-Samedi : 10:00h - 18:00h
+      Samedi : 10:00h - 18:00h
 <br />
-### 🔗 [Facebook]
+🔗 [Facebook]
 
 [Facebook]: https://fr-fr.facebook.com/famus.coiffeursdesigners/
