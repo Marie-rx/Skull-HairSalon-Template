@@ -943,8 +943,13 @@ section.reviews {
     .navbar-collapse {
         margin-left: 14rem;
     }
-     /*REVIEWS*/
-     .carousel {
+    /*GALERIE*/
+    .center-block {
+        width: 500px;
+        height: 500px;
+    }
+    /*REVIEWS*/
+    .carousel {
         width: 700px;
         margin: auto 0rem;
     }
@@ -965,8 +970,8 @@ section.reviews {
     .navbar-collapse {
         margin-left: 10rem;
     }
-     /*REVIEWS*/
-     .carousel {
+    /*REVIEWS*/
+    .carousel {
         width: fit-content;
         margin: auto 0rem;
     }
@@ -988,30 +993,125 @@ section.reviews {
     .navbar-collapse {
         margin-left: 9rem;
     }
-     /*REVIEWS*/
-     .carousel {
-        width: 599px;
+    /*REVIEWS*/
+    .carousel {
+        width: 540px;
         margin: auto 0rem;
     }
     .carousel-inner {
-        width: 530px;
-        height: 245px;
-        margin: auto 1.4rem;
+        width: 550px;
+        height: 265px;
+        margin: auto 0rem;
     }
     .carousel-control-prev, .carousel-control-next {
-        width: 1rem;
-        height: 15rem;
-    }
-    section.reviews h2 {
-        font-size: 3rem;
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 20rem;
+        position: absolute;
+        transform: translate(0%, -100%);
     }
 }
+
 
 /*SM*/
 
 @media (max-width: 425px) {
     .navbar-collapse {
-        margin-left: 4rem;
+        margin-left: 5rem;
+    }
+    .bannerIcon {
+        margin: 0 auto;
+        display: block;
+        width: 17rem;
+        height: 12rem;
+    }
+    a.nav-link {
+        font-size: 1.1rem;
+        padding-left: 0.5rem;
+        height: 2rem;
+        margin-top: 0rem;
+        padding-right: 0.5rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .nav-item {
+        height: 2rem;
+    }
+    .priceCard {
+        width: 25rem;
+    }
+    .priceSoin {
+        width: 25rem;
+        height: 12rem;
+    }
+    .priceCoupe {
+        width: 25rem;
+        height: 12rem;
+    }
+    .pricePhoto {
+        width: 25rem;
+        height: 12rem;
+    }
+    .photoInfos {
+        width: 400px;
+        height: 400px;
+    }
+    iframe.googleMaps {
+        width: 400px;
+        height: 400px;
+    }
+    .colInfos, .colGalerie {
+        padding: 0rem;
+    }
+    .center-block {
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .skullColor {
+        width: 400px;
+        height: 400px;
+    }
+    .fb_iframe_widget_fluid span {
+        width: 400px !important;
+        height: 400px !important;
+    }
+    /*REVIEWS*/
+    .carousel {
+        width: 400px;
+        height: 350px !important;
+        margin: auto 0rem;
+        
+    }
+    .carousel-inner {
+        width: 400px;
+        height: 300px !important;
+        margin: auto 0;
+        overflow: hidden;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 5rem;
+        margin-bottom: 0rem;
+    }
+    section.reviews h2 {
+        font-size: 3rem;
+    }
+    .fb_iframe_widget iframe {
+        width: 400px !important;
+        height: 330px !important;
+    }
+    .fb_iframe_widget_fluid {
+        width: 400px !important;
+        height: 330px !important;
+    }
+    .fb-page {
+        width: 400px;
+        height: 400px;
+    }
+    .footer {
+        height: 7rem;
+        padding: 2rem 1rem;
+        background-color: rgb(8, 8, 8);
     }
 }
 
@@ -1019,27 +1119,215 @@ section.reviews {
 
 @media (max-width: 375px) {
     .navbar-collapse {
-        margin-left: 2.5rem;
+        margin-left: 4rem;
+    }
+    .bannerIcon {
+        margin: 0 auto;
+        display: block;
+        width: 17rem;
+        height: 12rem;
+    }
+    a.nav-link {
+        font-size: 1.1rem;
+        padding-left: 0.5rem;
+        height: 2rem;
+        margin-top: 0rem;
+        padding-right: 0.5rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     }
     h1.banner {
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .colSmall {
+        padding: 0rem;
+    }
+    .nav-item {
+        height: 2rem;
+    }
+    .priceCard {
+        width: 22rem;
+    }
+    .priceSoin {
+        width: 22rem;
+        height: 10rem;
+    }
+    .priceCoupe {
+        width: 22rem;
+        height: 10rem;
+    }
+    .pricePhoto {
+        width: 22rem;
+        height: 10rem;
+    }
+    .photoInfos {
+        width: 375px;
+        height: 380px;
+    }
+    iframe.googleMaps {
+        width: 380px;
+        height: 380px;
+    }
+    .colInfos, .colGalerie {
+        padding: 0rem;
+    }
+    .center-block {
+        width: 380px;
+        height: 380px;
+        overflow: hidden;
+    }
+    .skullColor {
+        width: 380px;
+        height: 380px;
+    }
+    /*REVIEWS*/
+    .carousel {
+        width: 375px;
+        height: 350px !important;
+        margin: auto 0rem;
+        
+    }
+    .carousel-inner {
+        width: 375px;
+        height: 300px !important;
+        margin: auto 0rem;
+        overflow: hidden;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 5rem;
+        margin-bottom: 0rem;
+    }
+    section.reviews h2 {
         font-size: 3rem;
     }
-    .googleMaps {
-        width: 100%;
-        height: 20rem;
+    .fb_iframe_widget iframe { /*works*/
+        width: 375px !important;
+        height: 330px !important;
+    }
+    .fb_iframe_widget_fluid {
+        width: 375px !important;
+        height: 300px !important;
+    }
+    .fb_iframe_widget span {
+        width: 375px !important;
+        height: 300px !important;
+    }
+    .fb-page {
+        width: 375px;
+        height: 380px;
+    }
+    .footer {
+        height: 7rem;
+        padding: 2rem 1rem;
+        background-color: rgb(8, 8, 8);
     }
 }
 
 @media (max-width: 320px) {
     .navbar-collapse {
-        margin-left: 0.8rem;
+        margin-left: 2rem;
+    }
+    .bannerIcon {
+        margin: 0 auto;
+        display: block;
+        width: 17rem;
+        height: 12rem;
+    }
+    a.nav-link {
+        font-size: 1.1rem;
+        padding-left: 0.5rem;
+        height: 2rem;
+        margin-top: 0rem;
+        padding-right: 0.5rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     }
     h1.banner {
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .colSmall {
+        padding: 0rem;
+    }
+    .nav-item {
+        height: 2rem;
+    }
+    .priceCard {
+        width: 19rem;
+    }
+    .priceSoin {
+        width: 19rem;
+        height: 9rem;
+    }
+    .priceCoupe {
+        width: 19rem;
+        height: 9rem;
+    }
+    .pricePhoto {
+        width: 19rem;
+        height: 9rem;
+    }
+    .photoInfos {
+        width: 320px;
+        height: 320px;
+    }
+    iframe.googleMaps {
+        width: 320px;
+        height: 320px;
+    }
+    .colInfos, .colGalerie {
+        padding: 0rem;
+    }
+    .center-block {
+        width: 320px;
+        height: 320px;
+        overflow: hidden;
+    }
+    .skullColor {
+        width: 320px;
+        height: 320px;
+    }
+    /*REVIEWS*/
+    .carousel {
+        width: 320px;
+        height: 320px !important;
+        margin: auto 0rem;
+        
+    }
+    .carousel-inner {
+        width: 320px;
+        height: 320px !important;
+        margin: auto 0rem;
+        overflow: hidden;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 5rem;
+        margin-bottom: 0rem;
+    }
+    section.reviews h2 {
         font-size: 3rem;
     }
-    .googleMaps {
-        width: 100%;
-        height: 20rem;
+    .fb_iframe_widget iframe { /*works*/
+        width: 320px !important;
+        height: 320px !important;
+    }
+    .fb_iframe_widget_fluid {
+        width: 320px !important;
+        height: 320px !important;
+    }
+    .fb_iframe_widget span {
+        width: 320px !important;
+        height: 320px !important;
+    }
+    .fb-page {
+        width: 319px;
+        height: 320px;
+    }
+    .footer {
+        height: 7rem;
+        padding: 2rem 1rem;
+        background-color: rgb(8, 8, 8);
     }
 }
 
