@@ -1,5 +1,5 @@
-# Fam-us
-## Artistes du cheveu, génies coloristes. 
+# 💈 Fam-us ✂️
+🌈 Artistes du cheveu, génies coloristes. 
 ### FAM’US COIFFEURS DESIGNERS - Lille
 
     📣 “ Tu es fun ? Sans prise de tête ? Tu veux faire comme à la case ?
