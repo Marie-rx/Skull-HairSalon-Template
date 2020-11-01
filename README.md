@@ -1,4 +1,4 @@
-
+##### This is a fake hair salon website, it's a responsive template that I've made, free to use!
 # 💈 Skull coiffure ✂️
 🌈 <b>Artistes du cheveu, génies coloristes. </b>
 ### SKULL COIFFEURS DESIGNERS - PlaceholderVille
